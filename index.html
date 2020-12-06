@@ -22,140 +22,149 @@
     />
 
     <title>Devchallenges</title>
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Poppins:wght@500&family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <aside>
-      <nav>
-        <ul>
-          <i>Colors</i>
-          <i>Typography</i>
-          <i>Spaces</i>
-          <i>Buttons</i>
-          <i>Inputs</i>
-          <i>Grid</i>
+      <h1 class="aside-ele-up"><span class="hl">Dev</span>challenges.io</h1>
+      <nav class="aside-ele-down">
+        <ul class="nav-links">
+          <i class="link">Colors</i>
+          <i class="link">Typography</i>
+          <i class="link">Spaces</i>
+          <i class="link">Buttons</i>
+          <i class="link">Inputs</i>
+          <i class="link">Grid</i>
         </ul>
       </nav>
     </aside>
     <main>
       <section>
-        <article>
+        <article class="line-container">
           <h1>Buttons</h1>
         </article>
+
         <article class="line-container">
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
+            <p class="btn-card-desc">&#60;Button /&#62;</Button></p>
+            <p class="btn-card-btn simple">Default</p>
           </div>
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
+            <p class="btn-card-desc">&#38;:hover, &#38;:focus</p>
+            <p class="btn-card-btn simple s-hover">Default</p>
           </div>
         </article>
 
         <article class="line-container">
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
+            <p class="btn-card-desc">&#60;Button variant="outline" /&#62;</p>
+            <p class="btn-card-btn outline">Default</p>
           </div>
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
-          </div>
-        </article>
-
-        <article class="line-container">
-          <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
-          </div>
-          <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
+            <p class="btn-card-desc">&#38;:hover, &#38;:focus</p>
+            <p class="btn-card-btn outline o-hover">Default</p>
           </div>
         </article>
 
         <article class="line-container">
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
+            <p class="btn-card-desc">&#60;Button variant="text" /&#62;</p>
+            <p class="btn-card-btn text">Default</p>
+          </div>
+          <div class="btn-card">
+            <p class="btn-card-desc">&#38;:hover, &#38;:focus</p>
+            <p class="btn-card-btn text t-hover">Default</p>
           </div>
         </article>
 
         <article class="line-container">
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
-          </div>
-          <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
+            <p class="btn-card-desc">&#60;Button disableShadow /&#62;</p>
+            <p class="btn-card-btn disabled-shadow">Default</p>
           </div>
         </article>
 
         <article class="line-container">
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
+            <p class="btn-card-desc">&#60;Button disabled /&#62;</p>
+            <p class="btn-card-btn disabled">Default</p>
           </div>
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
-          </div>
-        </article>
-
-        <article class="line-container">
-          <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
-          </div>
-          <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
-          </div>
-          <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
+            <p class="btn-card-desc">&#60;Button variant="text" disabled /&#62;</p>
+            <p class="btn-card-btn disabled-text">Default</p>
           </div>
         </article>
 
         <article class="line-container">
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
+            <p class="btn-card-desc">&#60;Button startIcon="local_grocery_store" /&#62;</p>
+            <p class="btn-card-btn disabled-shadow"><span class="material-icons">
+              shopping_cart
+              </span> Default</p>
           </div>
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
-          </div>
-          <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Secondary</p>
-          </div>
-          <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Danger</p>
+            <p class="btn-card-desc">&#60;Button endIcon="local_grocery_store" /&#62;</p>
+            <p class="btn-card-btn disabled-shadow">Default <span class="material-icons">
+              shopping_cart
+              </span></p>
           </div>
         </article>
 
         <article class="line-container">
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
+            <p class="btn-card-desc">&#60;Button size="sm" /&#62;</p>
+            <p class="btn-card-btn sm disabled-shadow">Default</p>
           </div>
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Default</p>
+            <p class="btn-card-desc">&#60;Button size="md" /&#62;</p>
+            <p class="btn-card-btn md disabled-shadow">Default</p>
           </div>
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Secondary</p>
+            <p class="btn-card-desc">&#60;Button size="lg" /&#62;</p>
+            <p class="btn-card-btn lg disabled-shadow">Default</p>
+          </div>
+        </article>
+
+        <article class="line-container">
+          <div class="btn-card">
+            <p class="btn-card-desc">&#60;Button color="default" /&#62;</p>
+            <p class="btn-card-btn simple">Default</p>
           </div>
           <div class="btn-card">
-            <p class="btn-card-desc">desc</p>
-            <p class="btn-card-btn">Danger</p>
+            <p class="btn-card-desc">&#60;Button color="primary" /&#62;</p>
+            <p class="btn-card-btn disabled-shadow">Default</p>
+          </div>
+          <div class="btn-card">
+            <p class="btn-card-desc">&#60;Button color="secondary" /&#62;</p>
+            <p class="btn-card-btn secondary">Secondary</p>
+          </div>
+          <div class="btn-card">
+            <p class="btn-card-desc">&#60;Button color="danger" /&#62;</p>
+            <p class="btn-card-btn danger">Danger</p>
+          </div>
+        </article>
+
+        <article class="line-container">
+          <div class="btn-card">
+            <p class="btn-card-desc">&#38;:hover, &#38;:focus</p>
+            <p class="btn-card-btn simple s-hover">Default</p>
+          </div>
+          <div class="btn-card">
+            <p class="btn-card-desc"></p>
+            <p class="btn-card-btn disabled-shadow ds-hover">Default</p>
+          </div>
+          <div class="btn-card">
+            <p class="btn-card-desc"></p>
+            <p class="btn-card-btn secondary se-hover">Secondary</p>
+          </div>
+          <div class="btn-card">
+            <p class="btn-card-desc"></p>
+            <p class="btn-card-btn danger da-hover">Danger</p>
           </div>
         </article>
       </section>

@@ -1,6 +1,144 @@
 body {
   display: flex;
+  height: 100vh;
 }
+/*-----------------------aside section--------------*/
 aside {
-  background-color: aquamarine;
+  background-color: hsla(219, 7%, 47%, 0.37);
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 1em;
+}
+.aside-ele-up {
+  flex: 0 1 20%;
+  font-weight: bold;
+}
+.hl {
+  color: #f7542e;
+}
+.aside-ele-down {
+  flex: 0 0 50%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.link {
+  flex: 1;
+  padding: 1em;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/*-----------------------aside section--------------*/
+main {
+  width: 100%;
+}
+main section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  padding-left: 3em;
+}
+.line-container:first-child {
+  height: 30%;
+}
+.line-container:not(:first-child) {
+  display: flex;
+  flex-wrap: wrap;
+  /* border-top: 1px solid red; */
+  height: 80%;
+}
+.btn-card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 25%;
+  justify-content: space-around;
+}
+.btn-card-desc {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: small;
+}
+.btn-card-btn {
+  font-family: "Noto Sans JP", sans-serif;
+  width: fit-content;
+  padding: 0.5em 1em;
+  border-radius: 25px;
+}
+.line-container h1 {
+  font-family: "Poppins", sans-serif;
+}
+/*---------------applying style-----------*/
+/*style 1*/
+.simple {
+  background-color: #b4afaf;
+}
+.s-hover:hover,
+.hover:focus {
+  background-color: #979494;
+}
+/*style 2*/
+.outline {
+  border: 1px solid #3d5afe;
+  color: #3d5afe;
+}
+.o-hover:hover,
+.o-hover:focus {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+/*style 3*/
+.text {
+  color: #3d5afe;
+}
+.t-hover:hover,
+.t-hover:focus {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+/*style 4*/
+.disabled-shadow {
+  background-color: #3d5afe;
+  color: white;
+}
+/*style 5*/
+.disabled {
+  background-color: #a4a4a8;
+  color: rgb(107, 104, 104);
+}
+.disabled-text {
+  /* background-color: #777779; */
+  color: rgb(107, 104, 104);
+}
+
+/*style 7*/
+.sm {
+  padding: 0.5em;
+}
+.md {
+  padding: 0.5em 1em;
+}
+.lg {
+  padding: 1em 1.5em;
+}
+
+/*secondary & danger*/
+.secondary {
+  color: white;
+  background-color: gray;
+}
+.danger {
+  color: white;
+  background-color: orangered;
+}
+.se-hover:hover {
+  background-color: #3a3838;
+}
+.da-hover:hover {
+  background-color: red;
+}
+.ds-hover:hover {
+  background-color: #1a38e0;
 }
